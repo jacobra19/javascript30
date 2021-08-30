@@ -8,7 +8,7 @@ function App() {
                 'main-iframe',
             ) as HTMLIFrameElement
             if (iframeElement) {
-                iframeElement.src = `./src/projects/${page}/index.html`
+                iframeElement.src = `./projects/${page}/index.html`
             }
         } catch (error) {
             console.log('error :>> ', error)

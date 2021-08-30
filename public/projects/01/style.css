@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 .black-key {
@@ -37,6 +38,7 @@
     justify-content: center;
     align-items: flex-end;
     color: white;
+    cursor: pointer;
 }
 
 .active-key {
